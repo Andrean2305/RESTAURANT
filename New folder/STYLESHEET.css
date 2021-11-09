@@ -1,0 +1,320 @@
+li {
+    list-style: none;
+}       
+
+.header {
+    background-color: #48756b;
+    color: #fff;
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    z-index: 100 ;
+    opacity: 0.65 ;
+}
+
+.headerlogo {
+    float: right;
+    font-size: 60px;
+    font-family: 'Brush Script MT';
+    weight : bold;
+    padding: 15px 40px;
+    position: fixed;
+}
+
+.navbar {
+  overflow: hidden;
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+  padding-top: 20px;
+}
+.navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+
+}
+.main {
+    height: 100vh;
+    width: 100vw;
+    background-image:url(https://images.pexels.com/photos/349610/pexels-photo-349610.jpeg?cs=srgb&dl=pexels-lukas-349610.jpg&fm=jpg);
+    background-size :cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main h1{
+    margin: 0 auto;
+    position: absolute ;
+    opacity : 0.8;
+    font-size : 100px;
+    text-align : left;
+    color :#fff;
+    letter-spacing : 2px;
+    padding-top: 300px ;
+    padding-left: 70px;
+    font-family: "Snell Roundhand, cursive";
+}
+.main h3{
+    margin: 0 auto;
+    position: absolute;
+    opacity : 0.8;
+    font-size : 60px;
+        font-family: 'Brush Script MT';
+
+    text-align : left;
+    color : white;
+    letter-spacing : 2px;
+    padding-top :450px;
+    padding-left: 80px ;
+  
+}
+
+.spice {
+    background-image:url(https://img.freepik.com/free-photo/spoons-bowls-with-different-spices-ingredients-white-background-space-text_185193-9920.jpg?size=626&ext=jpg);
+    background-size :cover;
+    height : 800px;
+    margin:0 auto;
+}
+.spice h1 {
+    margin : 0 auto;
+    padding-top: 31.5%;
+    padding-left : 10%;
+    position : absolute;
+}
+
+.spice h2 {
+    margin : 0 auto;
+    padding-top: 34%;
+    padding-left : 10%;
+    position : absolute;
+    color :rgb(112, 156, 132);
+    font-size : 50px;
+}
+
+.spice p {
+    margin : 0 auto;
+    padding-top: 30%;
+    padding-left : 10%;
+    position : absolute;
+    color : grey
+}
+
+.spice p2 {
+    margin : 0 auto;
+    padding-top: 38%;
+    padding-left : 10.2%;
+    position : absolute;
+    color : rgb(150, 147, 147);
+    letter-spacing : 2px;
+}
+
+.spice h3{
+    margin : 0 auto;
+    padding-top: 45%;
+    padding-left : 10.2%;
+    position : absolute;
+    color : rgb(117, 116, 116);
+    font-size : 25px;
+}
+
+.spice h4{
+    margin : 0 auto;
+    padding-top: 47%;
+    padding-left : 10.2%;
+    position : absolute;
+    color : rgb(117, 116, 116);
+    font-size : 25px;
+}
+
+.spice h5{
+    margin : 0 auto;
+    padding-top: 49%;
+    padding-left : 10.2%;
+    position : absolute;
+    color : rgb(117, 116, 116);
+    font-size : 25px;
+}
+
+.spice img {
+    float : right;
+    padding-top : 33.2%;
+    padding-right : 10%;
+    padding-left : 60%; 
+    position : absolute;
+    margin : 0 auto;
+}
+
+.spice li {
+    padding-top: 37.8%;
+    padding-left : 5.2%;
+    position : absolute;
+    margin : 0 auto;
+}
+
+.main1 h1{
+    margin : 0 auto;
+    opacity : 0.8;
+    font-size : 100px;
+    text-align : left;
+    color : white;
+    letter-spacing : 2px;
+}
+
+#Favourites{
+  background-image : url(https://unblast.com/wp-content/uploads/2020/05/Light-Wood-Background-Texture-1536x1024.jpg
+);
+  height : 500px;
+  background-size : cover;
+  margin : 0 auto;
+  padding-top : 55px;
+}
+.FC img{
+  box-shadow: 10px 10px grey;
+}
+.FC img:hover{
+  box-shadow:  0px 0px; 
+}
+.FC {
+ float : left;
+ padding-left : 13%;
+ font-family: Snell Roundhand, cursive;
+ font-weight: 900;
+}
+
+.FC1 {
+  padding-bottom : 50px;
+  font-family: Snell Roundhand, cursive;
+}
+
+
+#Beverages{
+  background-image : url(https://unblast.com/wp-content/uploads/2020/05/Light-Wood-Background-Texture-1536x1024.jpg
+);
+  height : 500px;
+  background-size : cover;
+  margin : 0 auto;
+  padding-top : 55px;
+}
+
+.beverage1{
+  float: left;
+  padding-left : 13%;
+  font-weight: 900;
+}
+.beverage1 h1{
+  text-align: center;
+}
+
+.beverage1 p{
+  padding-left: 13%;
+  font-family: Snell Roundhand, cursive;
+
+}
+
+.beverage1 img{
+  width: 200px;
+  height: 200px;
+  padding-left: 13%;
+  box-shadow: 10px 10px grey;
+}
+
+.beverage1 img:hover{
+  box-shadow: 0px 0px ;
+}
+#Dessert{
+  background-image : url(https://unblast.com/wp-content/uploads/2020/05/Light-Wood-Background-Texture-1536x1024.jpg
+);
+  height : 500px;
+  background-size : cover;
+  margin : 0 auto;
+  padding-top : 55px;
+}
+
+.DC {
+ float : left;
+ padding-left : 13%;
+ font-family: Snell Roundhand, cursive;
+ font-weight: 900;
+}
+
+.DC1 {
+  padding-bottom : 50px;
+  font-family: Snell Roundhand, cursive;
+}
+
+.DC img{
+  box-shadow: 10px 10px grey;
+}
+.DC img:hover{
+  box-shadow: 0px 0px ;
+}
+#MainCourse{
+  background-image : url(https://unblast.com/wp-content/uploads/2020/05/Light-Wood-Background-Texture-1536x1024.jpg
+);
+  height : 500px;
+  background-size : cover;
+  margin : 0 auto;
+  padding-top : 55px;
+}
+
+.MCC {
+ float : left;
+ padding-left : 13%;
+ font-family: Snell Roundhand, cursive;
+ font-weight: 900;
+}
+
+.MCC img{
+  box-shadow: 10px 10px grey;
+}
+
+.MCC img:hover{
+  box-shadow: 0px 0px;
+}
+.MCC1 {
+  padding-bottom : 50px;
+  font-family: Snell Roundhand, cursive;
+}
+
+#Appetizer{
+  background-image : url(https://unblast.com/wp-content/uploads/2020/05/Light-Wood-Background-Texture-1536x1024.jpg
+);
+  height : 500px;
+  background-size : cover;
+  margin : 0 auto;
+  padding-top : 55px;
+}
+
+.AC {
+ float : left;
+ padding-left : 13%;
+ font-family: Snell Roundhand, cursive;
+ font-weight: 900;
+}
+
+.AC1 {
+  padding-bottom : 50px;
+  font-family: Snell Roundhand, cursive;
+}
+
+.AC img{
+  box-shadow: 10px 10px grey;
+}
+.AC img:hover{
+  box-shadow: 0px 0px;
+}
+.MAINBACK {
+  background-image : url(https://unblast.com/wp-content/uploads/2020/05/Light-Wood-Background-Texture-1536x1024.jpg
+);
+  background-size : cover;
+  height : 2500px;
+}
+
+.FC img {
+  box-shadow : 10px,grey;
+}
